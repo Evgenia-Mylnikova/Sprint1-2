@@ -603,4 +603,20 @@ display: flex;
 	font-size: 16px;
 	line-height: 20px;
 }
-/**/
+/*contacts*/
+.block__contacts{
+	background: #F8F6F7;
+	
+}
+.info{
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+.container-contacts{
+	display: flex;
+	justify-content: space-evenly;
+}
+
