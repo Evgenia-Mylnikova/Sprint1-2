@@ -357,6 +357,7 @@ display: flex;
 .master{
 	display: flex;
 	
+	
 }
 .container-master{
 	padding: 0;
@@ -365,6 +366,7 @@ display: flex;
 }
 .master__item{
 	padding-right: 30px;
+	align-items: flex-start;
 }
 .blocks__title{
 	margin: 0;
@@ -393,13 +395,7 @@ display: flex;
 	margin-bottom: 20px;
 	border-radius: 8px;
 }
-.master__icon.activ:hover{
-	
-	background: #000000;
-	opacity: .8;
-	
 
-}
 .master__text{
 	font-weight: 400;
 	font-size: 14px;
@@ -418,6 +414,57 @@ display: flex;
 	padding-top: 0;
 	margin-bottom: 8px;
 }
+.master__girl2{
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+	cursor: default;
+}
+.master__girl2 .mask{
+	height: 300px;
+	position:absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	right: 0;
+
+}
+.master__girl2 img{
+	display: block;
+	position: relative;
+}
+.mask{
+	display: flex;
+	text-align: center;
+	padding-left: 65px;
+}
+.text{
+	color:#FFFFFF;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+
+.master__girl2 .mask{
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0.44);
+	transition: all 0.4s ease-in-out;
+	
+}
+.master__girl2:hover img{
+	transform: scale(1.1);
+
+}
+.master__girl2:hover .mask{
+	opacity: 1;	
+}
+.master__girl2:hover p{
+	opacity: 1;	
+	transform: translateY(0);
+	transition-delay: 0.1s;
+}
+
 
 /*footer*/
 .footer{
