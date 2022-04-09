@@ -581,7 +581,9 @@ display: flex;
 	transition-delay: 0.1s;
 }
 /*brands*/
-
+.block__brands{
+	margin-top: 102px;
+}
 .brands{
 	display: flex;
 	justify-content: center;
@@ -593,7 +595,7 @@ display: flex;
 .container-brands{
 	justify-content: center;
 }
-.blocks__title{
+.blocks__titl{
 	display: flex;
 	justify-content: center;
 	
