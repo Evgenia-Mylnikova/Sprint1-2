@@ -413,6 +413,13 @@ display: flex;
 	margin-top: 0;
 	padding-top: 0;
 	margin-bottom: 8px;
+	
+}
+.master__title.active{
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 8px;
+	margin-top: 20px;
 }
 .master__girl2{
 	margin: 0;
@@ -587,6 +594,7 @@ display: flex;
 .brands{
 	display: flex;
 	justify-content: center;
+	margin-bottom: 100px;
 }
 .brands__icon{
 	height: 65px;
@@ -598,6 +606,8 @@ display: flex;
 .blocks__titl{
 	display: flex;
 	justify-content: center;
+	padding: 0;
+	margin-bottom: 40px;
 	
 }
 .container-brends__title{
