@@ -92,7 +92,10 @@
    justify-content: space-between;
    position: relative;
 
-   
+   &__title.active{
+	margin-top: 0;
+	margin-bottom: 0;
+}
 }
 .title{
    font-weight: 600;
@@ -199,6 +202,7 @@
       align-items: flex-end;
       margin-bottom: 15px;
       position: relative;
+		max-width: 445px;
 }
 	&__expand:hover{
    color:#00BF78;
@@ -207,6 +211,13 @@
 
 .images:hover{
    transform: scale(1.2);
+}
+
+.images{
+	max-width: 445px;
+	max-height: 296.33px;
+	width: 100%;
+	height: 100%;
 }
 
 /*advantages*/
@@ -221,6 +232,10 @@
    &__icon{
       padding:0;
       margin-bottom: 28px;
+		max-width: 48px;
+  		width: 100%;
+  		max-height: 48px;
+  		height: 100%;
 }
    &__title{
       padding: 0;
@@ -234,6 +249,8 @@
       font-weight: 400;
       font-size: 14px;
       line-height: 22px;
+		margin-left: 27px;
+  		margin-right: 27px;
 }
 }
 
@@ -268,6 +285,9 @@
 }
    &__icon{
       margin-bottom: 20px;
+		max-width: 350px;
+  		max-height:180px;
+  		height: 100%;
 }
    &__title{
       margin-bottom: 8px;
