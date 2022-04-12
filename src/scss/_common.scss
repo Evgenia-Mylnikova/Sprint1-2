@@ -9,3 +9,27 @@ body{
  	font-size: 20px;
 	line-height: 32px;
 }
+.container{
+   width: 100%;
+   max-width: 1110px;
+   margin: 0 auto;
+}
+.title{
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 59px;
+   margin-top: 120px;
+   margin-bottom: 17px;
+   
+}
+.section{
+   margin-bottom: 59px;
+}
+.intro{
+   display:flex;
+   padding-top: 75px;
+   height: 591px;
+   background-image: url("/img/header_background.png");
+   overflow: hidden;
+   }
+
