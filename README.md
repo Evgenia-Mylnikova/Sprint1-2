@@ -1,2 +1,2 @@
 # Sprint1-2
-https://magenta-bombolone-73e76f.netlify.app
+https://magnificent-mermaid-55a94c.netlify.app
